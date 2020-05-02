@@ -1,0 +1,14 @@
+A:hover{
+  background-color: white;
+  color: black;
+}
+
+.Nav_link {
+  text-decoration: none;
+  color: black;
+  padding: 25px;
+}
+
+.activeRoute{
+  border-bottom: 0.4em solid white;
+}
