@@ -2,11 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Div = styled.div`
-background-image: url('/Asset/Img/h.jpg');
-background-size: 100%;
-height: auto;
-border-bottom-left-radius: 90px;
-border-bottom-right-radius: 90px;
+
 `
 const P = styled.strong`
 display: flex;
@@ -17,14 +13,18 @@ display: flex;
 justify-content: center;
 `
 const Div1 = styled.div`
-padding: 9em;
+padding: 15em;
+background-image: url('/Asset/Img/h.jpg');
+background-size: 100%;
+border-bottom-left-radius: 90px;
+border-bottom-right-radius: 90px;
 `
 const Div2 = styled.div`
-width: 50%;
-margin-top: 10%;
+width: 40%;
 background: grey;
 padding: 4em 0 2em;
-border-radius: 90px;
+display: flex;
+justify-content: space-between;
 `
 const Div3 = styled.li`
 display: flex;
@@ -66,10 +66,11 @@ class Home extends React.Component{
                         <Img src='/Asset/svg/icon-3.svg' alt='3rd'/>
                     </Div3>
                     <P1>Phone responsive</P1>
+                    <Div4>
+                        <img src='/Asset/Img/j.jpeg' alt='4th' />
+                    </Div4>
                 </Div2>
-                <Div4>
-                    <img src='/Asset/Img/j.jpeg' alt='4th' />
-                </Div4>
+                
             </Div>
         )
     }
