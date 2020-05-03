@@ -2,13 +2,13 @@ import React from 'react'
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import './App.css'
 
-import Home from './components/Home'
-import About from './components/About'
-import Portfolio from './components/Portfolio'
-import Contact from './components/Contact'
-import Error from './components/Error'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
+import Home from './components/Home/Home'
+import About from './components/About/About'
+import Portfolio from './components/Portfolio/Portfolio'
+import Contact from './components/Contact/Contact'
+import Error from './components/Error/Error'
+import Navbar from './components/Navbar/Navbar'
+import Footer from './components/Footer/Footer'
 
 class App extends React.Component{
   render(){

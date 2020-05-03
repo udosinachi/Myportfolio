@@ -1,26 +1,6 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
-import styled from 'styled-components'
-
-const Div = styled.div`
-background: black;
-color: white;
-`
-const Div1 = styled.div`
-background: whitesmoke;
-display: flex;
-justify content: space-evenly;
-padding: 1em;
-`
-const Div2 = styled.div`
-display: flex;
-justify-content: space-evenly;
-padding-bottom: 3em;
-margin-left: 4em;
-`
-const Img = styled.img`
-margin-left: 8em;
-`
+import {Div, Div1, Div2, Img} from './FooterStyle'
 
 class Footer extends React.Component{
     render(){
