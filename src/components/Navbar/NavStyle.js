@@ -8,6 +8,18 @@ background-image: url('/Asset/Img/h.jpg');
 background-size: 100%;
 position: fixed;
 width: 100%;
+.Nav_link{
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+}
+.activeRoute{
+    border-bottom: 0.4em solid white;
+}
+A:Hover{
+    background-color: white;
+    color: black;
+  }
 `
 export const Ul = styled.ul`
 margin-right: 2em;

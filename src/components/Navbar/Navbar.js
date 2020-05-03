@@ -1,6 +1,6 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
-import {Nav, Ul, P} from './NavStyle'
+import {Nav, Ul, P,} from './NavStyle'
 
 
 class Navbar extends React.Component{
