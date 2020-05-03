@@ -58,7 +58,7 @@ class Footer extends React.Component{
                 <div>
                     <h1>Address</h1>
                     <p>Owerri, Imo State, Nigeria</p>
-                    <p>Phone: 08161993142</p>
+                    <p>Email: udosipat@gmail.com</p>
                 </div><br/>
                 </Div2>
             </Div>
