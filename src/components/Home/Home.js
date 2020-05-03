@@ -1,5 +1,5 @@
 import React from 'react'
-import {Div, P, H1, Div1, Div2, A} from './HomeStyle'
+import {Div, P, H1, Div1, Div2, A, Div3} from './HomeStyle'
 
 class Home extends React.Component{
     render(){
@@ -51,7 +51,10 @@ class Home extends React.Component{
                             <button className='button6'><a href='https://reacttraining.com/react-router/'>Learn more</a></button>
                         </A><br/>
                    </div>
-                </Div2>                
+                </Div2>
+                <Div3>
+                    <h1>hujh</h1>
+                </Div3>               
             </Div>
         )
     }

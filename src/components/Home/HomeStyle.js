@@ -117,3 +117,10 @@ text-align: center;
     color: white;
   }
 `
+export const Div3 = styled.div`
+border: 5px solid black;
+width: 100%;
+padding: 0;
+margin: 0;
+background: grey;
+`
