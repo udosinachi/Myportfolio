@@ -9,16 +9,18 @@ background: whitesmoke;
 display: flex;
 justify content: space-evenly;
 padding: 1em;
+img{
+    margin-left: 5em;
+    width: 20%;
+    :hover{
+        width: 22%;
+        background: white;
+    }
+}
 `
 export const Div2 = styled.div`
 display: flex;
 justify-content: space-evenly;
 padding-bottom: 3em;
 margin-left: 4em;
-`
-export const Img = styled.img`
-margin-left: 8em;
-hover{
-    
-}
 `

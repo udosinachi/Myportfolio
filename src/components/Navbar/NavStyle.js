@@ -15,7 +15,7 @@ top: 0;
     padding: 25px;
 }
 .activeRoute{
-    border-bottom: 0.3em solid white;
+    border-bottom: 0.1em solid white;
 }
 A:Hover{
     background-color: white;

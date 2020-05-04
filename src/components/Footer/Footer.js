@@ -7,13 +7,13 @@ class Footer extends React.Component{
         return(
             <Div>
                 <Div1>
-                    <Img src='/Asset/svg/1.svg' width='3%' height='3%' /><br/>
-                    <Img src='/Asset/svg/2.svg' width='3%' height='3%' /><br/>
-                    <Img src='/Asset/svg/3.svg' width='3%' height='3%' /><br/>
-                    <Img src='/Asset/svg/4.svg' width='3%' height='3%' /><br/>
-                    <Img src='/Asset/svg/5.svg' width='3%' height='3%' /><br/>
-                    <Img src='/Asset/svg/7.svg' width='3%' height='3%' /><br/>
-                    <Img src='/Asset/svg/8.svg' width='3%' height='3%'/>
+                    <a href='' target='_blank' ref='noopener noreferrer'><img src='/Asset/svg/1.svg' /></a>
+                    <a href='' target='_blank' ref='noopener noreferrer'><img src='/Asset/svg/2.svg' /></a>
+                    <a href='' target='_blank' ref='noopener noreferrer'><img src='/Asset/svg/3.svg' /></a>
+                    <a href='' target='_blank' ref='noopener noreferrer'><img src='/Asset/svg/4.svg' /></a>
+                    <a href='' target='_blank' ref='noopener noreferrer'><img src='/Asset/svg/5.svg' /></a>
+                    <a href='' target='_blank' ref='noopener noreferrer'><img src='/Asset/svg/7.svg' /></a>
+                    <a href='' target='_blank' ref='noopener noreferrer'><img src='/Asset/svg/8.svg' /></a>
                 </Div1><br/>
                 <Div2>
                 <div>
