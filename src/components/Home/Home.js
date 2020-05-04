@@ -10,6 +10,11 @@ class Home extends React.Component{
                     <P>Welcome to my</P>
                     <H1>PERSONAL PORTFOLIO</H1>
                 </Div1>
+                     
+                <Div3>
+                <h1>CREATED WITH</h1>
+                </Div3>  
+
                 <Div2>
                    <div className='div1'>
                         <A>
@@ -51,10 +56,7 @@ class Home extends React.Component{
                             <button className='button6'><a href='https://reacttraining.com/react-router/'>Learn more</a></button>
                         </A><br/>
                    </div>
-                </Div2>
-                <Div3>
-                    <h1>hujh</h1>
-                </Div3>               
+                </Div2>           
             </Div>
         )
     }

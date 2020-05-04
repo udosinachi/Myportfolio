@@ -8,6 +8,7 @@ background-image: url('/Asset/Img/h.jpg');
 background-size: 100%;
 position: fixed;
 width: 100%;
+top: 0;
 .Nav_link{
     text-decoration: none;
     color: black;
