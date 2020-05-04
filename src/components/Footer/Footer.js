@@ -13,7 +13,7 @@ class Footer extends React.Component{
                     <Img src='/Asset/svg/4.svg' width='3%' height='3%' /><br/>
                     <Img src='/Asset/svg/5.svg' width='3%' height='3%' /><br/>
                     <Img src='/Asset/svg/7.svg' width='3%' height='3%' /><br/>
-                    <Img src='/Asset/svg/8.svg' width='3%' height='3%' /><br/>
+                    <Img src='/Asset/svg/8.svg' width='3%' height='3%'/>
                 </Div1><br/>
                 <Div2>
                 <div>

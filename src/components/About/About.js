@@ -8,6 +8,7 @@ class About extends React.Component{
                 <div className='div1'>
                     <h1>About</h1>
                     <p>Get to know the web developer</p>
+                    
                 </div>
                 <div className='div2'>
                     <h1>The Developer</h1>

@@ -4,16 +4,18 @@ export const Div = styled.div`
 margin-top: 5em;
 .div1{
     text-align: center;
+    margin-bottom: 5em;
     p{
         bottom: 36px;
         font-weight: 500;
+        margin-top: 4px;
     }
     h1{
         font-size: 50px;
+        margin-bottom: 3px;
     }
 }
 .div2{
-    background: whitesmoke;
     width: 80%;
     margin-left: 3em;
     p{
@@ -22,13 +24,12 @@ margin-top: 5em;
     }
 }
 .div3{
-    background: whitesmoke;
     width: 80%;
     margin-left: 3em;
     padding-top: 40px;
     display: flex;
     img{
-        width: 70%;
+        width: 80%;
     }
     div{
         margin-left: 2em;

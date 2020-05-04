@@ -18,4 +18,7 @@ margin-left: 4em;
 `
 export const Img = styled.img`
 margin-left: 8em;
+hover{
+    
+}
 `
