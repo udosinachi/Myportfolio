@@ -1,6 +1,6 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
-import {Div, Div1, Div2, Img} from './FooterStyle'
+import {Div, Div1, Div2} from './FooterStyle'
 
 class Footer extends React.Component{
     render(){

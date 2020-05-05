@@ -19,7 +19,7 @@ background-size: 100%;
 export const Div2 = styled.div`
 width: 80%;
 padding: 30px;
-margin: 1em 0 1em 4em;
+margin: 1em 0 1em 6em;
 .div1{
     display: flex;
     justify-content: space-evenly;

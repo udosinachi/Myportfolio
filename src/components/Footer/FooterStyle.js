@@ -15,7 +15,7 @@ img{
     :hover{
         width: 22%;
         background: white;
-    }
+    } 
 }
 `
 export const Div2 = styled.div`
