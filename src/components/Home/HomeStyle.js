@@ -107,7 +107,7 @@ text-align: center;
     background: #181818;
     border: none;
     width: 50%;
-    padding: 1em;
+    padding: 1.1em;
     :hover {
       font-size: 15px;
     }
