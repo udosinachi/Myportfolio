@@ -97,8 +97,8 @@ text-align: center;
   .button5{
     background: #404040;
     border: none;
-    width: 50%;
-    padding: 1em;
+    width: 51%;
+    padding: 1.1em;
     :hover {
       font-size: 15px;
     }
