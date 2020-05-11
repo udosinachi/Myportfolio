@@ -13,7 +13,7 @@ img{
     margin-left: 5em;
     width: 20%;
     :hover{
-        width: 100%;
+        width: 22%;
         background: white;
     } 
 }
