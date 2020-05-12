@@ -5,10 +5,10 @@ background: black;
 color: white;
 `
 export const Div1 = styled.div`
-background: white;
+background: whitesmoke;
 display: flex;
 justify content: space-evenly;
-padding: 2em;
+padding: 1em;
 img{
     margin-left: 5em;
     width: 20%;
