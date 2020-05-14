@@ -7,7 +7,7 @@ class Home extends React.Component{
             <Div>
                 <Div1>
                     <P>I'm Udosinachi and I am a frontend web developer,</P>
-                    <P>Welcome to my</P>
+                    <P>Welcome to my own</P>
                     <H1>PERSONAL PORTFOLIO</H1>
                 </Div1>
                      
