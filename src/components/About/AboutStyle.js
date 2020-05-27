@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Div = styled.div`
+overflow: hidden;
 margin-top: 5em;
 .div1{
     text-align: center;
