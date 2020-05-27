@@ -7,7 +7,7 @@ color: white;
 export const Div1 = styled.div`
 background: whitesmoke;
 display: flex;
-justify content: space-evenly;
+justify-content: space-evenly;
 padding: 1em;
 img{
     margin-left: 5em;
