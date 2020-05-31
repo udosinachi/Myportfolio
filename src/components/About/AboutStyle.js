@@ -7,7 +7,7 @@ margin-top: 5em;
     text-align: center;
     margin-bottom: 5em;
     p{
-        bottom: 37px;
+        bottom: 36px;
         font-weight: 500;
         margin-top: 4px;
     }
