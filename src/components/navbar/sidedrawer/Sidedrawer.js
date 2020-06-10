@@ -3,13 +3,9 @@ import {NavLink } from 'react-router-dom'
 import {Div } from './Sidestyle'
 
 function Sidedrawer(props){
-    let drawerClasses = 'nav'
-    if(props.show) {
-        drawerClasses = 'nav open'
-    }
     return(
         <Div>
-            <nav className={drawerClasses}>
+            <nav>
                 <ul>
                     <li><NavLink exact to='/' className='link'>Home</NavLink></li>
                     <li><NavLink exact to='/about' className='link'>About</NavLink></li>

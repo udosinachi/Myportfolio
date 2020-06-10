@@ -22,16 +22,17 @@ class Home extends React.Component{
     }
 
     render(){
-        let sideDrawer;
         let backDrop;
+        let sidedrawer
 
         if(this.state.open){
             backDrop = <Backdrop click={this.backhandler}/>
+            sidedrawer = <Sidedrawer />
         }
         return(
             <div style={{height: '100%'}}>
                 <Navbar clickhandler={this.handler} />
-                <Sidedrawer show={this.state.open} />
+                {sidedrawer}
                 {backDrop}
             </div>
         )

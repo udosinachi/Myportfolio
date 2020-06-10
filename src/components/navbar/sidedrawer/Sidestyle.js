@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Div = styled.div`
-.nav{
+nav{
     height: 100%;
     background: white;
     box-shadow: 2px 0 5px rgb(0,0,0,0.5);
@@ -11,11 +11,10 @@ export const Div = styled.div`
     width: 70%;
     max-width: 400px;
     z-index: 200;
-    transform: translateX(-100);
-
-    .nav.open{
-        transform: translateX(0);
-    }
+        @media (min-width: 800px){
+            display: none;
+        }
+    
     ul{
         list-style: none;
         display: flex;
