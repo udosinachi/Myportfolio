@@ -15,8 +15,7 @@ function Navbar(props){
                 <ul>
                     <li><NavLink exact to='/' className='link' activeClassName='active'>Home</NavLink></li>
                     <li><NavLink exact to='/about' className='link' activeClassName='active'>About</NavLink></li>
-                    <li><NavLink exact to='/profile' className='link' activeClassName='active'>Profile</NavLink></li>
-                    <li><NavLink exact to='/projects' className='link' activeClassName='active'>Projects</NavLink></li>
+                    <li><NavLink exact to='/portfolio' className='link' activeClassName='active'>Portfolio</NavLink></li>
                     <li><NavLink exact to='/contact' className='link' activeClassName='active'>Contact</NavLink></li>
                 </ul>
                 <div className='hamburger'>

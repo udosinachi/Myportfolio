@@ -19,20 +19,24 @@ nav{
     }
     ul{
         display: flex;
+        
         li{
             list-style: none;
             padding: 0 1rem;
-            :hover{
-                    border-bottom: 5px solid white;
-                }
             
             .link{
                 color: black;
                 text-decoration: none;
-                
+                padding-bottom: 5px;
+                :hover{
+                    border-bottom: 3px solid white;
+                }
                 @media (max-width: 800px){
                     display: none;
                 }
+            }
+            .active{
+                border-bottom: 3px solid white;
             }
         }
     }

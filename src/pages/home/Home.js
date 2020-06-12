@@ -1,42 +1,28 @@
 import React from 'react'
-import Navbar from '../../components/navbar/Navbar'
-import Sidedrawer from '../../components/navbar/sidedrawer/Sidedrawer'
-import Backdrop from '../../components/navbar/backdrop/Backdrop'
+import Nav from '../../components/navbar/Nav'
+import {Div } from './HomeStyle'
+import {NavLink} from 'react-router-dom'
 
-class Home extends React.Component{
-    constructor(){
-        super()
-        this.state = {
-            open: false,
-        }
-    }
 
-    handler = () => {
-        this.setState((prevState) => {
-            return {open: !prevState.open}
-        })
-    }
-
-    backhandler = () => {
-        this.setState({open : false})
-    }
-
-    render(){
-        let backDrop;
-        let sidedrawer
-
-        if(this.state.open){
-            backDrop = <Backdrop click={this.backhandler}/>
-            sidedrawer = <Sidedrawer />
-        }
-        return(
-            <div style={{height: '100%'}}>
-                <Navbar clickhandler={this.handler} />
-                {sidedrawer}
-                {backDrop}
+function Home (){
+    return(
+        <Div>
+            <div>
+                <Nav />
             </div>
-        )
-    }
+            <div style={{marginTop: '90px'}} className='home'>
+                <h1>
+                    Welcome and explore the works of<br/>
+                    Udosinachi Ofoegbu<br/>
+                    A Frontend Web Designer<br/>
+                </h1>
+                <div className='buttons'>
+                    <NavLink to='/portfolio'><button className='button1'>View Portfolio</button></NavLink>
+                    <NavLink to='/contact'><button className='button2'>Contact</button></NavLink>
+                </div>
+            </div>
+        </Div>
+    )
 }
 
 export default Home
