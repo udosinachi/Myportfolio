@@ -20,6 +20,12 @@ function Home (){
                     <NavLink to='/portfolio'><button className='button1'>View Portfolio</button></NavLink>
                     <NavLink to='/contact'><button className='button2'>Contact</button></NavLink>
                 </div>
+                <div className='icons'>
+                    <img src='/asset/svg/1.svg' alt='icon' />
+                    <img src='/asset/svg/3.svg' alt='icon' />
+                    <img src='/asset/svg/4.svg' alt='icon' />
+                    <img src='/asset/svg/8.svg' alt='icon' />
+                </div>
             </div>
         </Div>
     )

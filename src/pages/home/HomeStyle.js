@@ -39,5 +39,10 @@ export const Div = styled.div`
             }
         }
     }
+    .icons{
+        img{
+            width: 10%;
+        }
+    }
 }
 `
