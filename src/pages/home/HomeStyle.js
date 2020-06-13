@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 
 export const Div = styled.div`
-
+overflow: hidden;
+height: 100%;
+background: url('/asset/img/h.jpg');
 .home{
     padding: 20px 60px;
     h1{
@@ -40,8 +42,15 @@ export const Div = styled.div`
         }
     }
     .icons{
+        width: 200px;
+        display: flex;
+        justify-content: space-evenly;
         img{
-            width: 10%;
+            width: 30px;
+            cursor: pointer;
+            :hover{
+                opacity: 0.7;
+            }
         }
     }
 }

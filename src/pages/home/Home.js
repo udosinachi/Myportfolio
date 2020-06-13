@@ -19,12 +19,12 @@ function Home (){
                 <div className='buttons'>
                     <NavLink to='/portfolio'><button className='button1'>View Portfolio</button></NavLink>
                     <NavLink to='/contact'><button className='button2'>Contact</button></NavLink>
-                </div>
+                </div><br/><br/>
                 <div className='icons'>
-                    <img src='/asset/svg/1.svg' alt='icon' />
-                    <img src='/asset/svg/3.svg' alt='icon' />
-                    <img src='/asset/svg/4.svg' alt='icon' />
-                    <img src='/asset/svg/8.svg' alt='icon' />
+                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/1.svg' alt='icon' className='1' /></a>
+                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/3.svg' alt='icon' className='2' /></a>
+                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/4.svg' alt='icon' className='3' /></a>
+                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/8.svg' alt='icon' className='4' /></a>
                 </div>
             </div>
         </Div>
