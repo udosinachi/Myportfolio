@@ -7,7 +7,7 @@ import Togglebutton from './sidedrawer/Togglebutton'
 
 function Navbar(props){
     return(
-        <Div>
+        <Div navcolor={props.navcolor} textcolor={props.textcolor}>
             <nav>
                 
                 <h1>Developer Udosinachi</h1>

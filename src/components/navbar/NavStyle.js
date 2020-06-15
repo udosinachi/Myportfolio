@@ -5,7 +5,7 @@ position: fixed;
 top: 0;
 left: 0;
 width: 100%;
-background: transparent;
+background: ${props => props.navcolor};
 nav{
     display: flex;
     height: 100%;

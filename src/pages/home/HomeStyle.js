@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Div = styled.div`
 overflow: hidden;
-height: 100%;
+height: 100vh;
 background: url('/asset/img/h.jpg');
 .home{
     padding: 20px 60px;
@@ -49,6 +49,7 @@ background: url('/asset/img/h.jpg');
             width: 30px;
             cursor: pointer;
             :hover{
+                width: 35px;
                 opacity: 0.7;
             }
         }
