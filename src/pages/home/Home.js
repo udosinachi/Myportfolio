@@ -14,7 +14,7 @@ function Home (){
                 <h1>
                     Welcome and explore the works of<br/>
                     Udosinachi Ofoegbu<br/>
-                    A Frontend Web Designer<br/>
+                    A Frontend Web Developer<br/>
                 </h1>
                 <div className='buttons'>
                     <NavLink to='/portfolio'><button className='button1'>View Portfolio</button></NavLink>
