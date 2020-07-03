@@ -4,17 +4,20 @@ export const Div = styled.div`
 overflow: hidden;
 
 .body{
-    display: flex;
-    justify-content: space-evenly;
     .image{
+        display: flex;
+        justify-content: center;
         img{
-            width: 20%;
-            border-radius: 3em;
+            width: 15%;
+            border-radius: 30em;
         }
     }
-    .text{
-        p{
-            font-size: 30px;
+    .resume{
+        display: flex;
+        justify-content: center;
+        button{
+            width: 100px;
+            padding: 10px;
         }
     }
 }

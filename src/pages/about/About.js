@@ -9,9 +9,9 @@ function About(){
             <div className='body'>
                 <div style={{marginTop: '100px'}} className='image'>
                     <img src='/asset/img/pic.jpg' alt='profile'/>
-                </div>
-                <div className='text'>
-                    <p>jdjjdfj jsdj</p>
+                </div><br/>
+                <div className='resume'>
+                    <button>Resume</button>
                 </div>
             </div>
         </Div>
