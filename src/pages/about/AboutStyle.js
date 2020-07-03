@@ -18,6 +18,10 @@ overflow: hidden;
         button{
             width: 100px;
             padding: 10px;
+            cursor: pointer;
+            border: none;
+            background: #252079;
+            color: white;
         }
     }
 }

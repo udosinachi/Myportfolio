@@ -5,13 +5,13 @@ import {Div } from './AboutStyle'
 function About(){
     return(
         <Div>
-            <Nav navcolor={'gray'} />
+            <Nav navcolor={'silver'} />
             <div className='body'>
                 <div style={{marginTop: '100px'}} className='image'>
                     <img src='/asset/img/pic.jpg' alt='profile'/>
                 </div><br/>
                 <div className='resume'>
-                    <button>Resume</button>
+                    <a href='https://www.google.com' target='_blank'><button>Resume</button></a>
                 </div>
             </div>
         </Div>
