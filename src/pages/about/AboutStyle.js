@@ -2,14 +2,14 @@ import styled from 'styled-components'
 
 export const Div = styled.div`
 overflow: hidden;
-
+background: silver;
 .body{
     .image{
         display: flex;
         justify-content: center;
         img{
             width: 15%;
-            border-radius: 30em;
+            border-radius: 50%;
         }
     }
     .resume{
