@@ -4,7 +4,8 @@ import {Div } from './FooterStyle'
 function Footer(){
     return(
         <Div>
-            <hr/>
+            <hr className='hr'/>
+            <p>Udosinachi @2020</p>
         </Div>
     )
 }
