@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from '../../components/navbar/Nav'
 import {Div } from './AboutStyle'
+import Footer from '../../components/footer/Footer'
 
 function About(){
     return(
@@ -14,6 +15,7 @@ function About(){
                     <a href='https://www.google.com' target='_blank'><button>Resume</button></a>
                 </div>
             </div>
+            <Footer />
         </Div>
     )
 }
