@@ -15,6 +15,9 @@ function About(){
                     <a href='https://www.google.com' target='_blank'><button>Resume</button></a>
                 </div>
             </div>
+            <div className='write'>
+                <h2>My name is Udosinachi Ofoegbu</h2>
+            </div>
             <Footer />
         </Div>
     )
