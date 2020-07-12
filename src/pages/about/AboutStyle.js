@@ -25,4 +25,12 @@ background: silver;
         }
     }
 }
+.write{
+    width: 80%;
+    align-items: center;
+    border: 3px solid black;
+    h2{
+        text-align: center;
+    }
+}
 `
