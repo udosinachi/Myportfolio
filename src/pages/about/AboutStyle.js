@@ -16,7 +16,7 @@ background: silver;
         display: flex;
         justify-content: center;
         button{
-            width: 99px;
+            width: 100px;
             padding: 10px;
             cursor: pointer;
             border: none;
