@@ -6,7 +6,7 @@ height: 100vh;
 background: url('/asset/img/h.jpg');
 .home{
     padding: 20px 60px;
-        @media (max-width: 800px){
+        @media (max-width: 801px){
             padding: 10px 30px;
         }
     h1{
