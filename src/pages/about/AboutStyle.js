@@ -5,10 +5,10 @@ overflow: hidden;
 background: silver;
 .body{
     .image{
-        display: flex;
+        display: grid;
         justify-content: center;
         img{
-            width: 15%;
+            width: 150px;
             border-radius: 50%;
         }
     }
@@ -26,8 +26,7 @@ background: silver;
     }
 }
 .write{
-    width: 80%;
-    border: 3px solid black;
+    width: 100%;
     h2{
         text-align: center;
     }

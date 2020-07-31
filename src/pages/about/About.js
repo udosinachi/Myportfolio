@@ -8,7 +8,7 @@ function About(){
         <Div>
             <Nav navcolor={'silver'} />
             <div className='body'>
-                <div style={{marginTop: '100px'}} className='image'>
+                <div style={{marginTop: '130px'}} className='image'>
                     <img src='/asset/img/pic.jpg' alt='profile'/>
                 </div><br/>
                 <div className='resume'>
