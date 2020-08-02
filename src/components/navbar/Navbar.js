@@ -9,7 +9,7 @@ function Navbar(props){
     return(
         <Div navcolor={props.navcolor}>
             <nav>
-                <h1>Developer Udosinachi</h1>
+                <h1><NavLink exact to='/' className='h1' >Developer Udosinachi</NavLink></h1>
                 <div className='spacer' />
                 <ul>
                     <li><NavLink exact to='/' className='link' activeClassName='active'>Home</NavLink></li>

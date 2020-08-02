@@ -14,6 +14,11 @@ nav{
     h1{
         margin-left: .5rem;
     }
+    .h1{
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
     .spacer{
         flex: 1;
     }
