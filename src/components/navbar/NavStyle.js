@@ -13,6 +13,7 @@ nav{
     align-items: center;
     h1{
         margin-left: .5rem;
+        font-size: 20px;
     }
     .h1{
         text-decoration: none;
