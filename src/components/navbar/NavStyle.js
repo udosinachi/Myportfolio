@@ -12,7 +12,7 @@ nav{
     padding: 0 1.5rem;
     align-items: center;
     h1{
-        margin-left: .5rem;
+        margin-left: .6rem;
         font-size: 20px;
     }
     .h1{
