@@ -17,12 +17,10 @@ nav{
     
     ul{
         list-style: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         height: 100%;
         li{
-            margin: 0.5rem 0;
+            padding: 1.5rem 2rem;
+            background: blue;
         }
         .link{
             color: black;
@@ -31,6 +29,15 @@ nav{
             :hover, :active{
                 color: blue;
             }
+        }
+    }
+    .imagesection{
+        display: grid;
+        justify-content: center;
+        margin-top: 5em;
+        img{
+            width: 120px;
+            border-radius: 50%;
         }
     }
 }
