@@ -19,13 +19,14 @@ nav{
         list-style: none;
         height: 100%;
         li{
-            padding: 1.5rem 2rem;
-            background: blue;
+            width: 100%;
+            padding-top: 1.3rem;
+            
         }
         .link{
             color: black;
             text-decoration: none;
-            font-size: 1.5rem;
+            font-size: 1.1rem;
             :hover, :active{
                 color: blue;
             }
