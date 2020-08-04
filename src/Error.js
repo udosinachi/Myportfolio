@@ -19,7 +19,7 @@ function Error(){
     return(
         <Div>
             <Nav />
-            <h1 className='h1'>PAGE NOT FOUND</h1>
+            <h1 className='h1'>PAGE NOT FOUND!</h1>
         </Div>
     )
 }
