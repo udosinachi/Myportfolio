@@ -5,7 +5,7 @@ function Footer(){
     return(
         <Div>
             <hr className='hr'/>
-            <p>Udosinachi @2020</p>
+            <p>Developer Udosinachi @2020</p>
         </Div>
     )
 }
