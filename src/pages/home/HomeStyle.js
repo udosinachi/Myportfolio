@@ -60,10 +60,6 @@ background: url('/asset/img/h.jpg');
         img{
             width: 30px;
             cursor: pointer;
-            :hover{
-                width: 35px;
-                opacity: 0.7;
-            }
         }
     }
 }
