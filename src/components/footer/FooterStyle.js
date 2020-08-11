@@ -6,8 +6,13 @@ p{
     color: white;
     text-align: center;
 }
-.hr{
-    color: white;
-    padding: 5px;
+.footer-icons{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    img{
+        width: 30px;
+        cursor: pointer;
+    }
 }
 `
