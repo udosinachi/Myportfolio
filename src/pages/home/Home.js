@@ -2,7 +2,6 @@ import React from 'react'
 import Nav from '../../components/navbar/Nav'
 import {Div } from './HomeStyle'
 import {NavLink} from 'react-router-dom'
-import Footer from '../../components/footer/Footer'
 
 
 function Home (){
@@ -28,7 +27,6 @@ function Home (){
                     <a href='https://www.google.com' target='_blank'><img src='/asset/svg/8.svg' alt='icon' className='4' /></a>
                 </div>
             </div>
-            <Footer />
         </Div>
     )
 }
