@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Div = styled.div`
 overflow: hidden;
-height: 100%;
+height: 100vh;
 background: url('/asset/img/h.jpg');
 .home{
     padding: 20px 60px;
@@ -19,6 +19,7 @@ background: url('/asset/img/h.jpg');
         }
         @media (max-width: 460px){
             font-size: 30px;
+            margin-top: 100px;
         }
     }
     .buttons{
