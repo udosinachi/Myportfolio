@@ -16,11 +16,23 @@ overflow: hidden;
         justify-content: space-evenly;
         flex-wrap: wrap;
         margin: 50px 100px;
+        @media (max-width: 1250px){
+            margin: 40px;
+        }
         form{
             input, textarea, button{
                 width: 500px;
                 padding: 20px 5px;
                 margin: 5px;
+                @media (max-width: 550px){
+                    width: 400px;
+                }
+                @media (max-width: 420px){
+                    width: 340px;
+                }
+                @media (max-width: 350px){
+                    width: 300px;
+                }
             }
             textarea{
                 height: 100px;
@@ -31,6 +43,15 @@ overflow: hidden;
                 background: black;
                 outline: none;
                 border: none;
+                @media (max-width: 550px){
+                    width: 410px;
+                }
+                @media (max-width: 420px){
+                    width: 360px;
+                }
+                @media (max-width: 350px){
+                    width: 310px;
+                }
             }
         }
         .social{
