@@ -33,7 +33,9 @@ class Home extends React.Component{
             <div style={{height: '100%'}}>
                 <Navbar 
                     clickhandler={this.handler} 
-                    navcolor={this.props.navcolor} 
+                    navcolor={this.props.navcolor}
+                    textcolor={this.props.textcolor} 
+                    hovercolor={this.props.hovercolor}
                 />
                 {sidedrawer}
                 {backDrop}

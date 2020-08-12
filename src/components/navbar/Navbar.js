@@ -7,7 +7,7 @@ import Togglebutton from './sidedrawer/Togglebutton'
 
 function Navbar(props){
     return(
-        <Div navcolor={props.navcolor}>
+        <Div navcolor={props.navcolor} textcolor={props.textcolor} hovercolor={props.hovercolor} >
             <nav>
                 <h1><NavLink exact to='/' className='h1' >Developer Udosinachi</NavLink></h1>
                 <div className='spacer' />

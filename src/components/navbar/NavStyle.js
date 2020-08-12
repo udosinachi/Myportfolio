@@ -17,7 +17,7 @@ nav{
     }
     .h1{
         text-decoration: none;
-        color: black;
+        color: ${props => props.textcolor};
         cursor: pointer;
     }
     .spacer{
@@ -31,18 +31,18 @@ nav{
             padding: 0 1rem;
             
             .link{
-                color: black;
+                color: ${props => props.textcolor};
                 text-decoration: none;
                 padding-bottom: 5px;
                 :hover{
-                    border-bottom: 3px solid black;
+                    border-bottom: 3px solid ${props => props.hovercolor};
                 }
                 @media (max-width: 800px){
                     display: none;
                 }
             }
             .active{
-                border-bottom: 3px solid black;
+                border-bottom: 3px solid ${props => props.hovercolor};
             }
         }
     }

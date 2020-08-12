@@ -1,12 +1,13 @@
 import React from 'react'
 import Nav from '../../components/navbar/Nav'
 import {Div } from './Contactstyle'
+import Footer from '../../components/footer/Footer'
 
 class Contact extends React.Component{
     render(){
         return(
             <Div>
-                <Nav navcolor={'silver'} />
+                <Nav navcolor={'black'} textcolor={'white'} hovercolor={'white'} />
                 <div style={{marginTop: '130px'}} className='body'>
                     <div className='text'>
                         <h1>Contact</h1>
@@ -32,6 +33,7 @@ class Contact extends React.Component{
                         </div>
                     </div>
                 </div>
+                <Footer />
             </Div>
         )
     }

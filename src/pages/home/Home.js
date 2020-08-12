@@ -8,7 +8,7 @@ function Home (){
     return(
         <Div>
             <div>
-                <Nav />
+                <Nav textcolor={'black'} hovercolor={'black'} />
             </div>
             <div style={{marginTop: '90px'}} className='home'>
                 <h1>
