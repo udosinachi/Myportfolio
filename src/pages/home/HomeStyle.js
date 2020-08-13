@@ -55,7 +55,7 @@ background: url('/asset/img/h.jpg');
         }
     }
     .icons{
-        width: 200px;
+        width: 300px;
         display: flex;
         justify-content: space-evenly;
         img{

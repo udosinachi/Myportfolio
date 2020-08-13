@@ -25,6 +25,10 @@ function Home (){
                     <a href='https://www.google.com' target='_blank'><img src='/asset/svg/3.svg' alt='icon' className='2' /></a>
                     <a href='https://www.google.com' target='_blank'><img src='/asset/svg/4.svg' alt='icon' className='3' /></a>
                     <a href='https://www.google.com' target='_blank'><img src='/asset/svg/8.svg' alt='icon' className='4' /></a>
+                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/2.svg' alt='icon' className='4' /></a>
+                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/9.svg' alt='icon' className='4' /></a>
+                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/10.svg' alt='icon' className='4' /></a>
+                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/11.svg' alt='icon' className='4' /></a>
                 </div>
             </div>
         </Div>

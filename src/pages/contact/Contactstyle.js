@@ -61,7 +61,7 @@ overflow: hidden;
                 font-size: 20px;
             }
             .icons{
-                width: 200px;
+                width: 300px;
                 display: flex;
                 justify-content: space-evenly;
                 img{
