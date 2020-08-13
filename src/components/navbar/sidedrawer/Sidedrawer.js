@@ -14,7 +14,7 @@ function Sidedrawer(props){
                 <ul>
                     <li><NavLink exact to='/' className='link'>Home</NavLink></li><hr/>
                     <li><NavLink exact to='/about' className='link'>About</NavLink></li><hr/>
-                    <li><NavLink exact to='/profile' className='link'>Profile</NavLink></li><hr/>
+                    <li><NavLink exact to='/portfolio' className='link'>Portfolio</NavLink></li><hr/>
                     <li><NavLink exact to='/contact' className='link'>Contact</NavLink></li><hr/>
                 </ul>
             </nav>
