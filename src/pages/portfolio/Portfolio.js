@@ -1,8 +1,10 @@
 import React from 'react'
 import {Div } from './Portfoliostyle'
 import Nav from '../../components/navbar/Nav'
+import Portfoliodata from './Portfoliodata'
 
 function Portfolio (props){
+    const Portfoliocomponent = Portfoliodata.map(item => <Portfolio key={item.id} product={item} /> )
     return(
         <Div>
             <Nav navcolor={'silver'} textcolor={'black'} hovercolor={'black'} />
