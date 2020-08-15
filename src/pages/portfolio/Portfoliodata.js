@@ -16,7 +16,13 @@ const Portfoliodata = [
         text: 'My third project',
         img: '/asset/img/m.jpg',
         button: 'Explore'
-    }
+    },
+    {
+        id: '4',
+        text: 'My first project',
+        img: '/asset/img/e.jpg',
+        button: 'Explore'
+    },
 ]
 
 export default Portfoliodata

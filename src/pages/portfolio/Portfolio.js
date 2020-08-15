@@ -5,7 +5,9 @@ import Nav from '../../components/navbar/Nav'
 function Portfolio(props){
     return(
         <Div>
-            <Nav navcolor={'silver'} textcolor={'black'} hovercolor={'black'} />
+            <div>
+                <Nav navcolor={'silver'} textcolor={'black'} hovercolor={'black'} />
+            </div>
             <div className='layout' style={{marginTop: '130px'}} >
                 <div>
                     <img src={props.img} /><br/>
