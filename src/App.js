@@ -5,7 +5,7 @@ import Home from './pages/home/Home'
 import About from './pages/about/About'
 import Contact from './pages/contact/Contact'
 import Error from './Error'
-import Portfolio from './pages/portfolio/Portfolio'
+import ShowPortfolio from './pages/portfolio/ShowPortfolio'
 
 
 function App(){
@@ -15,7 +15,7 @@ function App(){
         <Route exact path='/' component={Home} />
         <Route exact path='/about' component={About} />
         <Route exact path='/contact' component={Contact} />
-        <Route exact path='/portfolio' component={Portfolio} />
+        <Route exact path='/portfolio' component={ShowPortfolio} />
         <Route component={Error} />
       </Switch>
     </BrowserRouter>
