@@ -10,12 +10,15 @@ function ShowPortfolio (props){
         img={ports.img} button={ports.button} /> )
 
     return(
-        <Flex>
-            <div className='div'>
+        <div>
+            <Flex>
                 {PortfolioComponents}
+            </Flex>
+            <div style={{marginTop: '150px'}}>
+                <Footer />
             </div>
-            <Footer />
-        </Flex>
+        </div>
+        
     )
 }
 
