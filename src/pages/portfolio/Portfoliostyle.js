@@ -6,7 +6,6 @@ overflow: hidden;
     width: 400px;
     img{
         width: 400px;
-        position: absolute;
         :hover{
             opacity: 0.9;
             transition: 0.5s ease;
@@ -15,10 +14,9 @@ overflow: hidden;
     .inside{
         display: flex;
         flex-direction: column;
-        margin-top: 55px;
         h3{
         z-index: 100;
-        color: white;
+        color: black;
         margin: auto;
         }
         button{
@@ -43,7 +41,10 @@ overflow: hidden;
 `
 
 export const Flex = styled.div`
-display: flex;
-justify-content: space-evenly;
-flex-wrap: wrap;
+
+.div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 `

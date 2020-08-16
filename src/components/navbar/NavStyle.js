@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Div = styled.div`
-position: fixed;
+position: absolute;
 top: 0;
 left: 0;
 width: 100%;
