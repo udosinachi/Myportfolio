@@ -1,15 +1,12 @@
 import React from 'react'
 import {Div } from './Portfoliostyle'
-import Nav from '../../components/navbar/Nav'
+
 
 function Portfolio(props){
     return(
         <Div img={props.img}>
-            <div>
-                <Nav navcolor={'silver'} textcolor={'black'} hovercolor={'black'} />
-            </div>
-            <div className='card' style={{marginTop: '130px'}} >
-                <div className='caption_container'>
+            <div className='layout' style={{marginTop: '130px'}} >
+                <div className='freediv'>
                 </div>
                 <div className='card_text' >
                     <div className='caption'>

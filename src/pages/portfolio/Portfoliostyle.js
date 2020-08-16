@@ -1,31 +1,13 @@
 import styled from 'styled-components'
 
 export const Div = styled.div`
- align-items: center;
+    align-items: center;
     box-sizing: border-box;
     width: 100%;
     max-width: 450px;
     height: 300px;
     margin: 1em;
-
-    /* @media (max-width: 768px) {
-        margin: 1em 0 1em;
-        width: 100%;
-        height: 280px;
-        padding: 0;
-    }
-    @media (min-width: 901px) {
-        width: 320px;
-        min-width: 310px;
-        height: 250px;
-    }
-    @media (min-width: 1380px) {
-        width: 520px;
-        max-width: 550px;
-        height: 300px;
-    } */
-
-    .card{
+    .layout{
         position: relative;
         display: flex;
         align-content: center;
@@ -36,20 +18,20 @@ export const Div = styled.div`
         width: 100%;
         height: 100%;
 
-            :hover .caption_container{
+            :hover .freediv{
                 filter: blur(3px);
                 -webkit-filter: blur(3px);
                 backdrop-filter: blur(3px);                
                 transition: 0.5s;
             }
 
-            .caption_container{
+            .freediv{
                 display: flex;
                 align-content: center;
                 justify-content: space-around;
                 flex-wrap: wrap;
                 text-align: center;
-                background-image: linear-gradient(rgba(8, 1, 43, 0.63), rgba(8, 1, 43, 0.63)), url(${props => props.img});
+                background-image: url(${props => props.img});
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;
@@ -58,7 +40,6 @@ export const Div = styled.div`
                 height: 100%;
                 margin: auto;        
             }
-
                 @media (min-width: 1024px){
                     :hover .card_text .caption button {
                         visibility: visible;
@@ -113,7 +94,23 @@ export const Div = styled.div`
 `
 
 export const Flex = styled.div`
+overflow: hidden;
+.text{
+    h1{
+        text-align: center;
+        font-size: 50px;
+        padding: 0;
+        margin: 0;
+    }
+    p{
+        text-align: center;
+    }
+}
+
+.flex{
+    margin-top: -80px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
 `
