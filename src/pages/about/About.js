@@ -16,7 +16,12 @@ function About(){
                 </div>
             </div>
             <div className='write'>
-                <h2>My name is Udosinachi Ofoegbu</h2>
+                <div className='about'>
+                    <p>My name is Udosinachi Ofoegbu</p>
+                </div>
+                <div className='skills'>
+                    <p>Skills</p>
+                </div>
             </div>
             <Footer />
         </Div>

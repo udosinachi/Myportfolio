@@ -30,9 +30,17 @@ overflow: hidden;
     }
 }
 .write{
-    width: 100%;
-    h2{
-        text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 3px solid yellow;
+    .about{
+        width: 500px;
+        border: 3px solid blue;
+    }
+    .skills{
+        width: 500px;
+        border: 3px solid red;
     }
 }
 `
