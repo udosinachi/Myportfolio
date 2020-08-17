@@ -2,13 +2,12 @@ import styled from 'styled-components'
 
 export const Div = styled.div`
 overflow: hidden;
-background: silver;
 .body{
     .image{
         display: grid;
         justify-content: center;
         img{
-            width: 150px;
+            width: 200px;
             border-radius: 50%;
         }
     }
@@ -20,8 +19,13 @@ background: silver;
             padding: 10px;
             cursor: pointer;
             border: none;
-            background: #252079;
+            background: black;
             color: white;
+            :hover{
+                background: silver;
+                color: black;
+                transition: 0.5s;
+            }
         }
     }
 }
