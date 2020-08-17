@@ -8,7 +8,7 @@ overflow: hidden;
         justify-content: center;
         img{
             width: 200px;
-            border-radius: 50%;
+            border-radius: 15em;
         }
     }
     .resume{
@@ -33,14 +33,15 @@ overflow: hidden;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    border: 3px solid yellow;
     .about{
-        width: 500px;
-        border: 3px solid blue;
+        width: 700px;
+        margin: 10px;
     }
     .skills{
-        width: 500px;
-        border: 3px solid red;
+        width: 300px;
+        h1{
+            text-align: center;
+        }
     }
 }
 `
