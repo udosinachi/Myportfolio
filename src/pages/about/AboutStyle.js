@@ -10,6 +10,9 @@ overflow: hidden;
             width: 200px;
             border-radius: 15em;
         }
+        P{
+            text-align: center;
+        }
     }
     .resume{
         display: flex;

@@ -10,6 +10,7 @@ function About(){
             <div className='body'>
                 <div style={{marginTop: '130px'}} className='image'>
                     <img src='/asset/img/pro.jpg' alt='profile'/>
+                    <p>Developer Udosinachi</p>
                 </div><br/>
                 <div className='resume'>
                     <a href='https://www.google.com' target='_blank'><button>Resume</button></a>
