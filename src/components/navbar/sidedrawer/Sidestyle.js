@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Div = styled.div`
 nav{
     height: 100%;
-    background: white;
+    background: black;
     box-shadow: 2px 0 5px rgb(0,0,0,0.5);
     position: fixed;
     top: 0;
@@ -24,7 +24,7 @@ nav{
             
         }
         .link{
-            color: black;
+            color: white;
             text-decoration: none;
             font-size: 1.1rem;
             :hover, :active{
@@ -39,6 +39,9 @@ nav{
         img{
             width: 120px;
             border-radius: 50%;
+        }
+        P{
+            color: white;
         }
     }
 }

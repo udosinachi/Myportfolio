@@ -34,8 +34,6 @@ overflow: hidden;
 }
 
 .write{
-    border: 3px solid black;
-    border-radius: 20px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
