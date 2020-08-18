@@ -15,7 +15,7 @@ function About(){
                 <div className='resume'>
                     <a href='https://www.google.com' target='_blank'><button>Resume</button></a>
                 </div>
-            </div><hr/>
+            </div>
             <div className='write'>
                 <div className='about'>
                     <h1>About</h1>

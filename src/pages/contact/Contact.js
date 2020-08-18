@@ -34,6 +34,7 @@ class Contact extends React.Component{
                                 <a href='https://www.google.com' target='_blank'><img src='/asset/svg/10.svg' alt='icon' className='4' /></a>
                                 <a href='https://www.google.com' target='_blank'><img src='/asset/svg/11.svg' alt='icon' className='4' /></a>
                             </div>
+                            <p>Click the icons for my respective social media accounts and my email</p>
                         </div>
                     </div>
                 </div>

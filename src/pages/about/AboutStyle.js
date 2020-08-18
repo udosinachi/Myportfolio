@@ -32,19 +32,19 @@ overflow: hidden;
         }
     }
 }
+
 .write{
+    border: 3px solid black;
+    border-radius: 20px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     .about{
-        width: 700px;
+        width: 500px;
         margin: 10px;
     }
     .skills{
-        width: 300px;
-        h1{
-            text-align: center;
-        }
+        width: 500px;
     }
 }
 `
