@@ -19,7 +19,7 @@ const Portfoliodata = [
     },
     {
         id: '4',
-        text: 'My fourth project',
+        text: 'My fourth Project',
         img: '/asset/img/e.jpg',
         button: 'Explore'
     },
