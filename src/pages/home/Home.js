@@ -28,7 +28,7 @@ function Home (){
                     <a href='https://www.google.com' target='_blank'><img src='/asset/svg/2.svg' alt='icon' className='5' /></a>
                     <a href='https://www.google.com' target='_blank'><img src='/asset/svg/9.svg' alt='icon' className='6' /></a>
                     <a href='https://www.google.com' target='_blank'><img src='/asset/svg/10.svg' alt='icon' className='7' /></a>
-                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/11.svg' alt='icon' className='4' /></a>
+                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/11.svg' alt='icon' className='8' /></a>
                 </div>
             </div>
             <div>
