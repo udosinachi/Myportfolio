@@ -21,14 +21,14 @@ function Home (){
                     <NavLink to='/contact'><button className='button2'>Contact</button></NavLink>
                 </div><br/><br/>
                 <div className='icons'>
-                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/1.svg' alt='icon' className='1' /></a>
-                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/3.svg' alt='icon' className='2' /></a>
-                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/4.svg' alt='icon' className='3' /></a>
-                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/8.svg' alt='icon' className='4' /></a>
-                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/2.svg' alt='icon' className='5' /></a>
-                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/9.svg' alt='icon' className='6' /></a>
-                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/10.svg' alt='icon' className='7' /></a>
-                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/11.svg' alt='icon' className='8' /></a>
+                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/1.svg' alt='icon' /></a>
+                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/3.svg' alt='icon' /></a>
+                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/4.svg' alt='icon' /></a>
+                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/8.svg' alt='icon' /></a>
+                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/2.svg' alt='icon' /></a>
+                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/9.svg' alt='icon' /></a>
+                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/10.svg' alt='icon' /></a>
+                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/11.svg' alt='icon' /></a>
                 </div>
             </div>
             <div>
