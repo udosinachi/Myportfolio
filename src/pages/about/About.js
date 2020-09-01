@@ -36,7 +36,7 @@ function About(){
                         <li>Playing and watching football</li>
                         <li>Eating</li>
                         <li>Sleeping</li>
-                        <li>Learning new things</li>
+                        <li>Learning ne</li>
                     </ul>
                 </div>
             </div>
