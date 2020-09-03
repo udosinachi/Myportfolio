@@ -35,7 +35,6 @@ function Home (){
                 <h1>jdjs jdhia</h1>
                 <h1>jdjs jdhia</h1>
                 <h1>jdjs jdhia</h1>
-                <p>UDsijds</p>
             </div>
         </Div>
     )
