@@ -35,7 +35,7 @@ function Home (){
                 <h1>jdjs jdhia</h1>
                 <h1>jdjs jdhia</h1>
                 <h1>jdjs jdhia</h1>
-                <h1>Swag</h1>
+                <h1>Swag dfd</h1>
             </div>
         </Div>
     )
