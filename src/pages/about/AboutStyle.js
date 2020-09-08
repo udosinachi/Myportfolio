@@ -32,17 +32,4 @@ overflow: hidden;
         }
     }
 }
-
-.write{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    .about{
-        width: 500px;
-        margin: 10px;
-    }
-    .skills{
-        width: 500px;
-    }
-}
 `

@@ -15,7 +15,7 @@ function ShowPortfolio (props){
             <Nav navcolor={'black'} textcolor={'white'} hovercolor={'white'} />
             <div className='text' style={{marginTop: '130px'}}>
                 <h1>Portfolio</h1>
-                <p>Explore some of my designed works</p>
+                <p>Explore some of my works</p>
             </div>
             <div className='flex'>
                 {PortfolioComponents}
