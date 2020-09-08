@@ -10,7 +10,7 @@ overflow: hidden;
             width: 200px;
             border-radius: 15em;
         }
-        P{
+        h4{
             text-align: center;
         }
     }
@@ -36,29 +36,52 @@ overflow: hidden;
 .icons{
     display: flex;
     justify-content: space-evenly;
+    @media (max-width: 650px){
+        flex-wrap: wrap;
+    }
     .icon1{
+        text-align: center;
+        @media (max-width: 650px){
+            margin: 20px;
+        }
         img{
-            width: 100px;
+            width: 70px;
         }
     }
     .icon2{
+        text-align: center;
+        @media (max-width: 650px){
+            margin: 20px;
+        }
         img{
-            width: 90px;
+            width: 80px;
         }
     }
     .icon3{
+        text-align: center;
+        @media (max-width: 650px){
+            margin: 20px;
+        }
         img{
-            width: 95px;
+            width: 75px;
         }
     }
     .icon4{
+        text-align: center;
+        @media (max-width: 650px){
+            margin: 20px;
+        }
         img{
-            width: 110px;
+            width: 80px;
         }
     }
     .icon5{
+        text-align: center;
+        @media (max-width: 650px){
+            margin: 20px;
+        }
         img{
-            width: 100px;
+            width: 80px;
         }
     }
 }

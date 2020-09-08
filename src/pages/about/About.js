@@ -10,7 +10,7 @@ function About(){
             <div className='body'>
                 <div style={{marginTop: '130px'}} className='image'>
                     <img src='/asset/img/pro.jpg' alt='profile'/>
-                    <p>Developer Udosinachi</p>
+                    <h4>Developer Udosinachi</h4>
                 </div><br/>
                 <div className='resume'>
                     <a href='https://www.google.com' target='_blank'><button>Resume</button></a>
@@ -19,19 +19,24 @@ function About(){
 
             <div className='icons'>
                     <div className='icon1'>
-                        <img src='/asset/svg/css.svg' />
+                        <img src='/asset/svg/html.svg' />
+                        <h4>HTML</h4>
                     </div>
                     <div className='icon2'>
-                        <img src='/asset/svg/html.svg' />
+                        <img src='/asset/svg/css.svg' />
+                        <h4>CSS</h4>
                     </div>
                     <div className='icon3'>
                         <img src='/asset/svg/javascript.svg' />
+                        <h4>JAVASCRIPT</h4>
                     </div>
                     <div className='icon4'>
                         <img src='/asset/svg/react.svg' />
+                        <h4>REACT</h4>
                     </div>
                     <div className='icon5'>
                         <img src='/asset/svg/responsive.svg' />
+                        <h4>RESPONSIVE</h4>
                     </div>
             </div>
             <Footer />
