@@ -31,11 +31,6 @@ function Home (){
                     <a href='https://www.google.com' target='_blank'><img src='/asset/svg/11.svg' alt='icon' /></a>
                 </div>
             </div>
-            <div>
-                <h1>jdjs jdhia</h1>
-                <h1>jdjs jdhia</h1>
-                <h1>jdjs jdhia</h1>
-            </div>
         </Div>
     )
 }
