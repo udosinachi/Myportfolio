@@ -32,4 +32,34 @@ overflow: hidden;
         }
     }
 }
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    .icon1{
+        img{
+            width: 100px;
+        }
+    }
+    .icon2{
+        img{
+            width: 90px;
+        }
+    }
+    .icon3{
+        img{
+            width: 95px;
+        }
+    }
+    .icon4{
+        img{
+            width: 110px;
+        }
+    }
+    .icon5{
+        img{
+            width: 100px;
+        }
+    }
+}
 `
