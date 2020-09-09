@@ -36,6 +36,8 @@ overflow: hidden;
 .icons{
     display: flex;
     justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
     @media (max-width: 650px){
         flex-wrap: wrap;
     }
@@ -45,7 +47,7 @@ overflow: hidden;
             margin: 20px;
         }
         img{
-            width: 70px;
+            width: 60px;
         }
     }
     .icon2{
@@ -54,7 +56,7 @@ overflow: hidden;
             margin: 20px;
         }
         img{
-            width: 80px;
+            width: 70px;
         }
     }
     .icon3{
@@ -63,7 +65,7 @@ overflow: hidden;
             margin: 20px;
         }
         img{
-            width: 75px;
+            width: 65px;
         }
     }
     .icon4{
@@ -72,7 +74,7 @@ overflow: hidden;
             margin: 20px;
         }
         img{
-            width: 80px;
+            width: 70px;
         }
     }
     .icon5{
@@ -81,8 +83,15 @@ overflow: hidden;
             margin: 20px;
         }
         img{
-            width: 80px;
+            width: 70px;
         }
     }
+}
+
+.write{
+    border: 3px solid black;
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
 `

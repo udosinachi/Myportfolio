@@ -11,11 +11,15 @@ function About(){
                 <div style={{marginTop: '130px'}} className='image'>
                     <img src='/asset/img/pro.jpg' alt='profile'/>
                     <h4>Developer Udosinachi</h4>
-                </div><br/>
+                </div>
                 <div className='resume'>
                     <a href='https://www.google.com' target='_blank'><button>Resume</button></a>
                 </div>
-            </div><hr/><br/>
+            </div><br/>
+
+            <div className='write'>
+                <p>hsj jsfjms usid kjsregz kzfnzlmf lFKN</p>
+            </div><br/>
 
             <div className='icons'>
                     <div className='icon1'>
