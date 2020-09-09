@@ -37,7 +37,7 @@ nav{
         justify-content: center;
         margin-top: 5em;
         img{
-            width: 120px;
+            width: 150px;
             border-radius: 50%;
         }
         P{

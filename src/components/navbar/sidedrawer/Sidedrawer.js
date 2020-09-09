@@ -7,7 +7,7 @@ function Sidedrawer(props){
         <Div>
             <nav>
                 <div className='imagesection'>
-                    <img src='/asset/img/pic.jpg' alt='profile'/>
+                    <img src='/asset/img/pro.jpg' alt='profile'/>
                     <p>Developer Udosinachi</p>
                 </div>
                 <hr/>
