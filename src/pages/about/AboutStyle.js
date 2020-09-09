@@ -7,8 +7,8 @@ overflow: hidden;
         display: grid;
         justify-content: center;
         img{
-            width: 200px;
-            border-radius: 15em;
+            width: 150px;
+            border-radius: 50%;
         }
         h4{
             text-align: center;
