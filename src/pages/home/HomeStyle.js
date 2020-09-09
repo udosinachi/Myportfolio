@@ -22,10 +22,8 @@ background: url('/asset/img/h.jpg');
             margin-top: 100px;
         }
     }
-    .buttons{
-        
+    .buttons{ 
         width: 350px;
-
         .button1{
             width: 150px;
             padding: 20px;
@@ -55,7 +53,7 @@ background: url('/asset/img/h.jpg');
         }
     }
     .icons{
-        width: 300px;
+        width: 150px;
         display: flex;
         justify-content: space-evenly;
         img{

@@ -89,7 +89,6 @@ overflow: hidden;
 }
 
 .write{
-    border: 3px solid black;
     width: 80%;
     margin: auto;
     text-align: center;

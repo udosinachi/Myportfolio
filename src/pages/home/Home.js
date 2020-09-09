@@ -22,13 +22,9 @@ function Home (){
                 </div><br/><br/>
                 <div className='icons'>
                     <a href='https://www.google.com' target='_blank'><img src='/asset/svg/1.svg' alt='icon' /></a>
-                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/3.svg' alt='icon' /></a>
                     <a href='https://www.google.com' target='_blank'><img src='/asset/svg/4.svg' alt='icon' /></a>
-                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/8.svg' alt='icon' /></a>
-                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/2.svg' alt='icon' /></a>
                     <a href='https://www.google.com' target='_blank'><img src='/asset/svg/9.svg' alt='icon' /></a>
                     <a href='https://www.google.com' target='_blank'><img src='/asset/svg/10.svg' alt='icon' /></a>
-                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/11.svg' alt='icon' /></a>
                 </div>
             </div>
         </Div>

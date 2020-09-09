@@ -18,7 +18,7 @@ function About(){
             </div><br/>
 
             <div className='write'>
-                <p>hsj jsfjms usid kjsregz kzfnzlmf lFKN</p>
+                <p>My name is Udosinachi Ofoegbu. I am a frontend web developer from Nigeria. I designed this website with React.</p>
             </div><br/>
 
             <div className='icons'>
