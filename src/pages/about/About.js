@@ -8,7 +8,7 @@ function About(){
         <Div>
             <Nav navcolor={'black'} textcolor={'white'} hovercolor={'white'} />
             <div className='body'>
-                <div style={{marginTop: '130px'}} className='image'>
+                <div style={{marginTop: '190px'}} className='image'>
                     <img src='/asset/img/pro.jpg' alt='profile'/>
                     <h4>Developer Udosinachi</h4>
                 </div>
@@ -42,7 +42,7 @@ function About(){
                         <img src='/asset/svg/responsive.svg' />
                         <h4>RESPONSIVE</h4>
                     </div>
-            </div>
+            </div><br/><br/>
             <Footer />
         </Div>
     )

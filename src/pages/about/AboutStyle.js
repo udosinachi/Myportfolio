@@ -7,7 +7,7 @@ overflow: hidden;
         display: grid;
         justify-content: center;
         img{
-            width: 150px;
+            width: 180px;
             border-radius: 50%;
         }
         h4{
