@@ -52,14 +52,5 @@ background: url('/asset/img/h.jpg');
             }
         }
     }
-    .icons{
-        width: 150px;
-        display: flex;
-        justify-content: space-evenly;
-        img{
-            width: 30px;
-            cursor: pointer;
-        }
-    }
 }
 `

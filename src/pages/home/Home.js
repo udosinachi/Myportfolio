@@ -20,12 +20,6 @@ function Home (){
                     <NavLink to='/portfolio'><button className='button1'>View Portfolio</button></NavLink>
                     <NavLink to='/contact'><button className='button2'>Contact</button></NavLink>
                 </div><br/><br/>
-                <div className='icons'>
-                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/1.svg' alt='icon' /></a>
-                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/4.svg' alt='icon' /></a>
-                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/9.svg' alt='icon' /></a>
-                    <a href='https://www.google.com' target='_blank'><img src='/asset/svg/10.svg' alt='icon' /></a>
-                </div>
             </div>
         </Div>
     )

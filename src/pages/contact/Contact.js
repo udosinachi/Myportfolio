@@ -25,14 +25,12 @@ class Contact extends React.Component{
                         <div className='social'>
                             <p>Ready? If you're ready to talk then I'm here to listen. Send me a message and we'll start a conversation towards your next design. I look forward to building new sites or making invitations for that special event. I also enjoy meeting and collaborating with other designers. If you have a UI concept you'd like to see become a reality but lack the coding portion let's see what we can do. Media inquiries? Sure</p>
                             <div className='icons'>
-                                <a href='https://www.google.com' target='_blank'><img src='/asset/svg/1.svg' alt='icon' className='1' /></a>
-                                <a href='https://www.google.com' target='_blank'><img src='/asset/svg/3.svg' alt='icon' className='2' /></a>
-                                <a href='https://www.google.com' target='_blank'><img src='/asset/svg/4.svg' alt='icon' className='3' /></a>
-                                <a href='https://www.google.com' target='_blank'><img src='/asset/svg/8.svg' alt='icon' className='4' /></a>
-                                <a href='https://www.google.com' target='_blank'><img src='/asset/svg/2.svg' alt='icon' className='4' /></a>
-                                <a href='https://www.google.com' target='_blank'><img src='/asset/svg/9.svg' alt='icon' className='4' /></a>
-                                <a href='https://www.google.com' target='_blank'><img src='/asset/svg/10.svg' alt='icon' className='4' /></a>
-                                <a href='https://www.google.com' target='_blank'><img src='/asset/svg/11.svg' alt='icon' className='4' /></a>
+                                <a href='https://www.linkedin.com/in/udosinachi' target='_blank'><img src='/asset/svg/1.svg' alt='icon' className='1' /></a>
+                                <a href='https://www.twitter.com/udosinachii' target='_blank'><img src='/asset/svg/4.svg' alt='icon' className='3' /></a>
+                                <a href='https://mail.google.com/mail/u/udosipat@gmail.com' target='_blank'><img src='/asset/svg/2.svg' alt='icon' className='4' /></a>
+                                <a href='https://github.com/udosinachi' target='_blank'><img src='/asset/svg/9.svg' alt='icon' className='4' /></a>
+                                <a href='https://wa.me/+2348161993142' target='_blank'><img src='/asset/svg/10.svg' alt='icon' className='4' /></a>
+                                <a href='https://t.me/Udosi' target='_blank'><img src='/asset/svg/11.svg' alt='icon' className='4' /></a>
                             </div>
                             <p>Click the icons for my respective social media accounts and my email</p>
                         </div>
