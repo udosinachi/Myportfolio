@@ -17,7 +17,7 @@ function Home (){
                     A Frontend Web Developer<br/>
                 </h1>
                 <div className='buttons'>
-                    <NavLink to='/portfolio'><button className='button1'>View Portfolio</button></NavLink>
+                    <NavLink to='/portfolio'><button className='button1'>View Projevts</button></NavLink>
                     <NavLink to='/contact'><button className='button2'>Contact</button></NavLink>
                 </div><br/><br/>
             </div>
